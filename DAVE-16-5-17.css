@@ -1,0 +1,2061 @@
+/* Institucion: DAVE
+   Lenguaje: CSS
+   Modificado por Ernesto Isasi 12/26/2016.-
+   LMS Update 5/16/2017
+   Script para agregar nuevas opciones al menu horizontal y realizar cambios a la plataforma.-
+
+*/
+#box-shadow-object {
+width: 236px;
+height: 394px;
+}
+
+#global_nav_help_link { 
+	display: none;
+	bottom: 170px;
+ }
+
+/* -- Boton de Help */
+
+.icon-help {
+  position: relative;
+  width: 100%;
+  height: 25px;
+}
+
+.icon-help { 
+  background-image: url("http://www.edukgroup.com/canvasimgs/Help-white-svg.svg");
+  background-repeat: no-repeat;
+  background-position:center;
+  float: center;
+  -webkit-background-size: 100% 100%;
+}
+
+.icon-help[class*=icon-]:before, .icon-help[class^=icon-]:before {
+  font-size: 30px;
+}
+
+
+/* Boton de servicios */
+.icon-servicios {
+  position: relative;
+  width: 100%;
+  height: 25px;
+}
+
+.icon-servicios { 
+  background-image: url("http://www.edukgroup.com/canvasimgs/servicios.svg");
+  background-repeat: no-repeat;
+  background-position:center;
+  float: center;
+  -webkit-background-size: 100% 100%;
+}
+
+.icon-servicios[class*=icon-]:before, .icon-servicios[class^=icon-]:before {
+  font-size: 30px;
+}
+/* Nuevo - 14 de Diciembre 2016 */
+
+#box-shadow-object {
+	-webkit-box-shadow: -5px 10px 5px -2px rgba(0,0,0,0.47);
+	-moz-box-shadow: -5px 10px 5px -2px rgba(0,0,0,0.47);
+	box-shadow: -5px 10px 5px -2px rgba(0,0,0,0.47);
+	background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#a41e22, #7e1e22); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#a41e22, #7e1e22); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#a41e22, #7e1e22); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#a41e22, #7e1e22); /* Standard syntax (must be last) */
+}
+
+
+/* 9 de Setiembre 2016 */
+
+.item-group-condensed .item-group-expandable .ig-list li .ig-row {background: #565656;}
+
+.ig-list .ig-row:focus {
+    background-color: #777777!important;
+}
+
+.ig-list .ig-row:hover {
+    background-color: #777777!important;
+}
+
+.ig-list .ig-row {
+    color: #f3f3f3;
+}
+
+.discussion .discussion-row.discussion-published .discussion-title a {
+    color: #d8d8d8;
+}
+
+/* Cambios del 29 de Agosto 2016 */
+
+/* Menu */
+
+.ReactTray__header {
+    padding-bottom: 12px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+	border-bottom: 1px solid #d6d6d6;
+    margin-bottom: 12px;
+}
+
+.ReactTray__secondary-content {
+    border-top: 1px solid #d6d6d6;
+    padding-top: 12px;
+}
+
+
+/* Modules */
+
+.ig-published .ig-type-icon {
+    background-color: inherit;
+}
+
+.ig-list .ig-row.ig-published:before {
+    background-color: #d6d6d6;
+}
+
+
+/* Cambios del 8 de Agosto 2016 */
+
+#last_saved_indicator {color: white;}
+
+/* Help */
+#help-dialog #help-dialog-options li a:focus, #help-dialog #help-dialog-options li a:hover {
+background-color: #696969;
+}
+
+
+/* Cambios - 4 de Agosto 2016 */
+
+/* Course -- People */
+
+.ic-Table.ic-Table--hover-row tbody tr:hover, .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-neutral:hover, .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-success:hover, .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-alert:hover, .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-danger:hover {
+background-color: #3a3030;
+}
+
+
+/* Courses -- To do */
+#right-side .events_list .event-details, #right-side .events_list .todo-details, #right-side .to-do-list .event-details, #right-side .to-do-list .todo-details {
+    display: inline-block;
+    padding-right: 24px;
+    color: #c73136;
+}
+
+/* Files */
+.tree i[class*=icon-], .tree i[class^=icon-] {
+    color: white!important;
+}
+
+
+
+/* Dashboard */
+.stream_header:hover {
+background: #771616;
+}
+
+/* Assigments */
+
+.rubric_container td, .rubric_container th {
+color: #b9b9b9;
+}
+
+/* Color de la letra en Assignment - Submision */
+#sidebar_content .details .content .late {
+    color: #f33838;
+    font-weight: bold;
+}
+
+/* Para solucionar problema con la visualizaciÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â³n de dos icons en el HTML Editor */
+
+i[class*=icon-]:before, i[class^=icon-]:before, a[class*=icon-]:before, a[class^=icon-]:before {
+    color: inherit;
+}
+
+/* Files -- Images */
+.ef-item-row:hover {
+    background-color: #565656;
+}
+
+/* ePorfolio - Home - Welcome */
+
+#section_list li.active .section_url {
+    background-color: #636363; /* Por si acaso #675454 */
+}
+
+#section_list {
+    border-top: 1px solid #636363;
+}
+
+#section_list li .section_url {
+    border-bottom: 1px solid #636363;
+}
+
+
+/* -- -- */
+
+
+/* Nuevo - 4 de Agosto 2016 */
+
+/* Menu horizontal */
+.ReactTray__link-list .ReactTray-list-item__link {ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡ 
+color:#777!important;
+} 
+
+
+/* Settings - email que se vuelve blanco*/
+#right-side table.summary td, #right-side table.summary tbody th {
+background-color: #d4d4d4;
+color: black;
+}
+
+/* SecciÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â³n del Help */
+
+#help-dialog #help-dialog-options li a .subtext {   
+color: inherit;
+}
+
+
+/* -- -- */
+
+   
+/* Cambios del 3 de Agosto 2016 */
+.context_module_item .type_icon i {color: white;}
+
+
+/*#help-dialog #help-dialog-options li a:focus, #help-dialog #help-dialog-options li a:hover {background-color: #8c8c8c;}*/
+
+ul.instTree li.leaf.active-leaf {
+background-color: #9c9797;
+}
+
+.stream-details tr:hover {
+background: #9c9c9c;
+}
+
+
+/* Fin -  */
+
+/* Elementos Globales */
+
+/* -- Botones */
+
+.btn-link:focus, .Button--link:focus {
+    color: #d6d6d5;
+}
+
+.btn-link:hover, .Button--link:hover {
+    color: #d6d6d5;
+    text-decoration: underline;
+    background: transparent;
+}
+
+.btn-primary, .Button--primary {
+    background: #a41e22;
+    color: #fff;
+    border: 1px solid #a41e22;
+}
+ 
+.button-sidebar-wide {
+    text-align: left;
+    margin: 5px auto;
+	background: #d6d6d5;
+    color: #fff;
+}
+
+
+.list-view>ul>li>a:hover, .list-view>ul>li>a:focus, .list-view>nav>ul>li>a:hover, .list-view>nav>ul>li>a:focus {
+    background: #a41e22;
+} 
+
+.btn-link, .Button--link {
+    border-color: transparent;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btn, .edit-wiki {
+    background: #d6d6d5;
+    color: #757575;
+}
+
+#right-side .right-side-list li small {
+    color: #fff;
+}
+
+/* Speed Grader */
+
+#right_side h2,#right_side .h2 {
+    background: #e2e2e2;
+    border-bottom: 4px solid #3e3e3e;
+    border-top: 4px solid #3e3e3e;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0;
+    padding: 8px;
+    line-height: 1.1
+}
+
+#right_side div.comment {
+    background: #e2e2e2;
+    color: black;
+}
+
+#right_side div.comment:first-of-type {
+	background: #e2e2e2;
+    color: black;
+}
+/* End Speed Grader */
+
+/* -- Ambiente */
+
+body {
+    min-height: 100vh;
+    background: #3E3E3E;
+    font-weight: 300;
+	/*color: #fff;*/
+	color: #ADADAD;
+}
+
+#breadcrumbs {
+    background-color: #3E3E3E;
+}
+
+/* -- Iconos */
+
+.delete_criterion_link {
+    color: white;
+}
+
+.standalone-icon:before {
+    color: white;
+}
+
+/* -- Texto */
+
+
+fieldset legend {
+     color: white;
+}
+
+.profile_table .data_description {
+    font-size: 0.8em;
+    color: #fff;
+}
+
+ul, ol {
+    padding: 0;
+    margin: 0 0 6px 25px;
+    color: white;
+}
+
+.ic-notification__title {
+ 
+    color: black;
+}
+
+p {
+   color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h {
+	color: inherit;
+}
+
+a[class*=icon-]:before, a[class^=icon-]:before {
+    color: inherit;
+}
+
+.pages.show .page-title {
+    font-size: 2.5em;
+    font-weight: 200;
+    margin: 15px 0;
+    color: #fff;
+}
+
+.pages.show .course-title {
+    display: none;
+    font-size: 1.8em;
+    font-weight: bold;
+    line-height: 30px;
+    margin: 0;
+    color: #fff;
+}
+
+#breadcrumbs>ul>li+li:last-of-type a {
+    color: #ffffff;
+}
+
+#breadcrumbs>ul>li {
+    display: inline-block;
+    white-space: nowrap;
+    vertical-align: top;
+    font-size: 18px;
+    font-size: 1.125rem;
+    color: #ffffff;
+}
+
+
+/* Para evaluacion -- Menu vertical -- arriba cambio propuesto */
+
+/*li a {
+	color: #8E8E8E;
+    text-decoration: none;
+}*/
+
+.list-view>ul>li:last-child>a, .list-view>nav>ul>li:last-child>a {
+    color: #ffffff;
+}
+
+.list-view>ul>li>a, .list-view>nav>ul>li>a { 
+    color: #fff;
+}
+
+label {
+    display: inline-block;
+    color: #ffffff;
+}
+
+.ReactTray__header:not(.ReactTray__header--is-profile) .ReactTray__headline {
+    color: #777;
+	flex: 1;
+    min-width: 1px;
+    font-size: 21px;
+    font-size: 1.3125rem;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Para evaluacion -- Menu vertical -- arriba cambio propuesto */
+.ReactTray__link-list .ReactTray-list-item__link {
+    color: #777;
+}
+
+.ReactTrayPortal {
+   color: black;
+}
+
+.ReactTray__link-list .ReactTray-list-item__link {
+    color: black;
+}
+
+/* -- Tablas - color de las filas pares */
+.ic-Table.ic-Table--striped tbody tr:nth-child(odd) {
+    background-color: #ccc;
+}
+
+table.side_tabs_table ul.side_tabs li.selected_side_tab {
+background-color: #737373;
+}
+ÃƒÆ’Ã¢â‚¬Å¡ 
+table.side_tabs_table ul.side_tabs li:hover {
+background-color: #737373;
+}
+
+/* -- Lineas en los titulos */
+.ic-app-nav-toggle-and-crumbs {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-bottom: 1px solid #A41E22;
+    margin: 0 24px;
+    padding: 16px 0;
+}
+
+.header-bar {
+    border-bottom: 1px solid #A41E22;
+	background-color: #3E3E3E;
+
+}
+
+h1.page-title {
+    border-bottom:1px solid #A41E22;
+	float:right;
+    width:100%;
+}
+
+h1.ic-Action-header__Heading {
+    border-bottom:1px solid #A41E22;
+}
+
+.ic-Dashboard-header {
+    border-bottom: 1px solid #A41E22;
+}
+
+#right-side h2, #right-side .h2 {   
+    border-bottom: 1px solid #A41E22;
+}
+
+/* -- Ventanas Emergentes */
+
+.ReactModal__Content.ReactModal__Content--canvas .ReactModal__Footer {
+    background: #989797;
+}
+
+.ReactModal__Content.ReactModal__Content--canvas .ReactModal__Body {
+    background: #989797;
+}
+
+.ReactModal__Content.ReactModal__Content--canvas .ReactModal__Header {
+    padding: 12px;
+	background: #3E3E3E;
+}
+
+.ReactModal__Content.ReactModal__Content--canvas .ReactModal__Header-Title * {
+    margin: 0;
+	background: #3E3E3E;
+}
+
+.ui-dialog.ui-widget-content {
+    background: #b3b3b3;
+}
+
+.ui-dialog-titlebar.ui-widget-header, .ui-dialog .ui-datepicker .ui-widget-header.ui-datepicker-header, .ui-datepicker .ui-dialog .ui-widget-header.ui-datepicker-header {
+    background: #dedede;
+    padding: 16px 12px;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.ui-widget-content {
+    border: 1px solid #aaa;
+    background: #b3b3b3;
+    color: white;
+}
+
+/* Elementos Globales - END */
+   
+/* Login Page */
+.ic-Login {
+    box-shadow: none;
+}
+.ic-Login-header {
+    padding: 0 18px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+	position: relative;
+    left: 1%;
+
+}
+.ic-Login-header__logo {
+    -webkit-flex: 0 0 160%;
+}
+.ic-Label {
+    font-weight: bold;
+}
+
+.ic-Login__actions .ic-Login__actions-timeout label {
+    font-weight: bold;
+}
+
+.ic-Login__link {
+    font-weight: bold;
+}
+
+.ic-Login-footer__links {
+    font-weight: bold;
+}
+ 
+ .ic-Login__header__logo{
+  width: 1080px;
+  -webkit-flex: 1;
+  margin:0 auto;
+  display:block;
+  transform: translate(-42%, 0%);
+  -webkit-transform: translate(-42%, 0%);
+ } 
+ 
+ .ic-Login__header .ic-Login__header__logo img {
+    max-width: 1080px;
+	max-height: 200px;
+	width: 180.5%;
+	margin: 1.25;
+}
+ 
+ body.ic-Login-Body{
+     background-image: linear-gradient(transparent, transparent 100%, #FFFFFF),url("https://instructure-uploads.s3.amazonaws.com/account_25570000000000001/attachments/2967038/Fondo_Login_Page.png?AWSAccessKeyId=AKIAJFNFXH2V2O7RPCAA&Expires=1937657759&Signature=i8QjduehqWsNm%2BruIcyD1CaTUjc%3D&response-cache-control=Cache-Control%3Amax-age%3D473364000.0%2C%20public&response-expires=473364000.0");
+}
+
+.ic-Login__body {
+    background: transparent none repeat scroll 0% 0%;
+    padding: 24px 24px 12px;
+    margin-top: 12px;
+    background-color: rgba(0, 0, 0, 0.3);
+ }
+ 
+ body.ic-Login-Body #footer.ic-Login-footer {
+    display: block !important;
+    background: rgba(0, 0, 0, 0.3) none repeat scroll 0% 0%;
+}
+
+/* Login Page - END */
+
+/* Perfil */
+/* Perfil -- Notification Preferences */
+
+.notification-prefs-table .group-name {  
+    color: #3d3d3d;
+}
+
+
+/* Admin */
+/* Admin -- Courses - Add a New User */
+
+.hint-text {
+    color: white;
+}
+
+/* Admin -- Authentication Settings */
+.help-block, .help-inline {
+    color: #ADADAD;
+}
+
+   
+/* Dashboard */
+.ic-app-footer {
+    border-top: 1px solid #A41E22;
+}
+
+.ic-notification__icon {
+    background: #3e3e3e;
+}
+
+.ic-DashboardCard__header_content {   
+    background: #3E3E3E;  
+}
+
+.ic-DashboardCard__action-container {
+    background: #3E3E3E;
+}
+
+/* Dashboard -- Recent Activity */
+
+.stream-details .date {
+    color: #c73136;
+}
+ 
+/* Admin -- Permissions - Course Role */
+
+.table th, .table td {
+    background: white;
+}
+
+/* Admin -- Rubrics - Accounts Rubrics */
+
+.rubric_container.editing label[for=rubric-title] {
+color: white;
+}
+
+
+/* Dashboard -- Recent Activity */
+ 
+    
+ /* Menu vertical */
+ 
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    font-family: 'icomoon';
+    font-style: normal;
+    speak: none;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+#custom_nav .menu-item-icon-container {
+    position: relative;
+	width: 53px;
+    /*left: -4px;*/
+}
+
+/* -- Boton de Biblioteca */
+.icon-biblioteca {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.icon-biblioteca { 
+  background-image: url("http://www.edukgroup.com/canvasimgs/biblioteca.svg");
+  background-repeat: no-repeat;  
+  background-position:center;
+  float: center;
+  -webkit-background-size: 100% 100%;
+}
+
+.icon-biblioteca[class*=icon-]:before, .icon-biblioteca[class^=icon-]:before {
+  font-size: 30px;
+}
+
+/* -- Boton de Biblioteca FTC */
+.icon-biblioteca-ftc {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.icon-biblioteca-ftc { 
+  background-image: url("http://www.edukgroup.com/canvasimgs/bibliotecaFTC.svg");
+  background-repeat: no-repeat;  
+  background-position:center;
+  float: center;
+  -webkit-background-size: 100% 100%;
+}
+
+.icon-biblioteca-ftc[class*=icon-]:before, .icon-biblioteca-ftc[class^=icon-]:before {
+  font-size: 30px;
+}
+
+/* -- Boton de Informacion */
+.icon-faqs {
+  position: relative;
+  width: 100%;
+  height: 25px;
+}
+
+.icon-faqs { 
+  background-image: url("http://www.edukgroup.com/canvasimgs/faqs.svg");
+  background-repeat: no-repeat;
+  background-position:center;
+  float: center;
+  -webkit-background-size: 100% 100%;
+}
+
+.icon-faqs[class*=icon-]:before, .icon-faqs[class^=icon-]:before {
+  font-size: 30px;
+}
+
+/* -- Boton de comunidad */
+.icon-comunidad {
+  position: relative;
+  width: 100%;
+  height: 25px;
+}
+
+.icon-comunidad { 
+  background-image: url("http://www.edukgroup.com/canvasimgs/faqs.svg");
+  background-repeat: no-repeat;
+  background-position:center;
+  float: center;
+  -webkit-background-size: 100% 100%;
+}
+
+.icon-comunidad[class*=icon-]:before, .icon-comunidad[class^=icon-]:before {
+  font-size: 30px;
+}
+
+
+/* -- Boton de servicios */
+.icon-servicios {
+  position: relative;
+  width: 100%;
+  height: 25px;
+}
+
+.icon-servicios { 
+  background-image: url("http://www.edukgroup.com/canvasimgs/servicios.svg");
+  background-repeat: no-repeat;
+  background-position:center;
+  float: center;
+  -webkit-background-size: 100% 100%;
+}
+
+.icon-servicios[class*=icon-]:before, .icon-servicios[class^=icon-]:before {
+  font-size: 30px;
+}
+
+.ic-app-header__menu-list-link .ic-icon-svg {
+    width: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ic-app-header__logomark-container {
+    background-color: #231f20;
+}
+
+.ic-app-header__menu-list {
+    background-color: #231f20;
+}
+
+.menu-item__text {
+    color: #ed1e24;
+}
+
+.ReactTray__Content--after-open {
+    color: #757575;
+}
+
+#section-tabs .section-tab-hidden a {
+    color: #8c8a8a;
+}
+
+/*Menu vertical END*/
+
+/* Courses */
+
+/* Courses -- Import from Commons */
+
+.ic-Login-confirmation__content {
+    background: #3d3d3d;
+}
+
+
+/* Courses - All Courses */
+
+.course-list-table .course-list-table-row:hover {
+    background-color: #4e4b4b;
+}
+
+/* -- Home - Edition - Link to Website URL */
+
+.courses .details, .groups .details, .accounts .details {
+    color: #fff;
+    font-size: 0.8em;
+    margin: 0 0 0 10px;
+}
+
+#right-side {
+    padding: 12px;
+    background: #3e3e3e;
+    border: 1px solid #3e3e3e;
+}
+
+#right-side .details .header {
+color: inherit;
+}
+
+#right-side h3, #right-side .h3 {
+    border-bottom: 1px solid #A41E22;
+	color: #ADADAD;
+}
+
+#right-side .right-side-list li small {
+    color: #ADADAD;
+}
+
+ul.instTree li.leaf:hover {
+background-color: #585858;
+}
+
+
+ui-icon ui-icon-extlink ui-icon-inline {
+    color: #c73136;
+}
+
+#right-side .events_list .event-list-view-calendar[class*=icon-]:before, #right-side .events_list .event-list-view-calendar[class^=icon-]:before {
+    color: #adadad;
+}
+
+em {
+    font-style: italic;
+    color: #ADADAD;
+}
+
+/* -- Home - Pages - Home Page - Revision History */
+
+.pages.show.revisions .revision.selected {
+    background: #717171;
+}
+
+.pages.show.revisions .revision .revision-content .revision-details {
+    color: #3d3d3d;
+}
+
+
+/* -- Home - View Course Analytics - Default Term */
+
+div#analytics_body .department_statistics table .AnalyticsStats__Count {
+    font-size: 1.5em;
+    color: white;
+}
+
+div#analytics_body .department_statistics table .AnalyticsStats__Label {
+    color: #d8d3d3;
+    font-weight: bold;
+}
+
+.graph {
+    background: #cccccc;
+}
+
+/* -- Home - View Page History - Revision History */
+
+.pages.show.revisions .revision .revision-content {
+    padding: 7px 8px;
+    font-size: 12px;
+    font-size: 0.75rem;
+    background: #dedede;
+}
+
+/* -- Syllabus */
+/* -- Modules */
+
+.align-right, .text-right {
+    color: white;
+}
+
+.context_module_item .item_name .title {
+    color: white;
+}
+
+.ig-list .ig-row:hover {
+    background-color: #9c9b9b;
+}
+
+.item-group-container {
+    background: #3e3e3e;
+}
+
+.ig-header .ig-header-title .icon-mini-arrow-down {
+    color: white;
+}
+
+.ig-header .name {
+    color: #A41E22;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.5);
+    font-weight: bold;    
+}
+
+.item-group-condensed .ig-list li:first-child .ig-row, .item-group-condensed .ig-list li:first-of-type .ig-row, .item-group-condensed .first_visible .ig-row {
+    border-top: 1px solid #d6d6d6;
+    background: #3E3E3E;
+}
+
+.item-group-condensed .ig-list li:last-child .ig-row, .item-group-condensed .ig-list li:last-of-type .ig-row, .item-group-condensed .last_visible .ig-row {
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background: #3E3E3E;
+}
+
+.item-group-condensed .ig-row {
+    border-bottom: 1px solid #888;
+    background: #3e3e3e;
+}
+
+
+.context_module_item .type_icon .icon-document {
+    color: white;
+}
+
+.ig-list .icon-drag-handle {
+    color: white;
+}
+
+.context_module_item.discussion_topic .icon-discussion {
+    display: inline-block;
+    color: white;
+}
+
+.context_module_item.assignment .icon-assignment {
+    display: inline-block;
+    color: white;
+}
+
+.context_module .ig-details .points_possible_display {
+    text-align: center;
+    color: white;
+}
+
+.publish-icon.publish-icon-published {
+    color: #ffffff;
+}
+
+a.ic-DashboardCard__link  {
+	color: #ffffff;
+    text-decoration: none;
+}
+
+.ig-list .ig-row a.ig-title {
+  color: #FAFAFA;
+  text-decoration: none;
+}
+
+.ig-list .ig-row.ig-published .ig-title {
+    color: #C73136;
+}
+
+.ig-title{
+    color: #FAFAFA;
+}
+
+/* -- Modules - Student Progress */
+
+#progression_students {
+    height: 450px;
+    background-color: inherit;
+    border: 1px solid #d6d6d6;
+}
+
+#progression_students .collectionViewItems {
+    list-style-type: none;
+    margin-left: 0;
+    overflow-y: auto;
+    background: white;
+}
+
+#progression_students .collectionViewItems .student {
+    cursor: pointer;
+    border-top: solid 1px transparent;
+    background: white;
+}
+
+#progression_modules .collectionViewItems li .progression-module {
+    background-color: inherit;
+    padding: 0;
+}
+
+/* -- Pages */
+.header-row a.sort-field-active i {
+    color: white;
+}
+
+
+
+.user_content table:not([cellpadding]) td, .mceContentBody table:not([cellpadding]) td {
+
+    color: white;
+}
+
+/* -- Announcements */
+
+.al-trigger-gray {
+    color: white;
+}
+
+
+.discussionTopicIndexList .discussion-author {
+color: white;
+}
+
+.discussionTopicIndexList .discussion-topic.unread .discussion-title {
+color: white;
+}
+
+.discussionTopicIndexList .discussion-topic {
+background-color: #6d6b6b;
+}
+
+
+.discussionTopicIndexList .discussion-topic:nth-child(odd) {
+    background-color: #3e3e3e;
+}
+
+.discussionTopicIndexList .discussion-summary {
+    color: white;
+}
+
+.discussionTopicIndexList .discussion-unread-container, .discussionTopicIndexList .discussion-last-reply, .discussionTopicIndexList .discussion-info-icons {
+    color: white;
+}
+
+/* -- People */
+/* -- People - Add People */
+.alert-danger, .alert-error {
+	background-color: #3d3d3d;
+}
+
+/* -- People - Groups - Create Group Set */
+	.form-dialog .form-dialog-content {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 51px;
+		overflow: auto;
+		padding: 20px;
+		background: #3e3e3e;
+	}
+/* -- Assignments */
+
+input[type=file] {
+    color: black;
+    background: white;
+}
+
+.rubric_container .rubric_table {
+    color: white;
+    background: #3d3d3d;
+}
+
+
+.rubric_container.assessing td.rating:hover {
+    background-color: #33442d;
+}
+
+.rubric_container thead th {
+    color: black;
+}
+
+.rubric_container .rubric_title {
+background-color: inherit;
+}
+
+.nobr {
+    color: white;
+}
+
+.rubric_container tr.criterion td.criterion_description .container {
+    color: white;
+}
+
+.ui-menu .ui-menu-item a.ui-state-hover, .ui-menu .ui-menu-item a.ui-state-active, .ui-menu .ui-menu-item .ui-progressbar a.ui-widget-header, .ui-progressbar .ui-menu .ui-menu-item a.ui-widget-header, .ui-menu .ui-menu-item a.ui-state-focus {
+background: #9a9a9a;
+color: white;
+}
+.al-options .ui-menu-item a {
+    color: #dedbdb;
+}
+
+.al-options .ui-menu-item a.disabled, .al-options .ui-menu-item a.disabled.ui-state-focus {
+    color: #717171;
+}
+
+.module-sequence-footer .module-sequence-footer-content {
+    height: 64px;
+    background: inherit;
+    border-top: 1px solid #A41E22;
+    box-sizing: border-box;
+    padding-top: 12px;
+}
+
+.page-action-list a {
+    display: block;
+    padding: 8px 0;
+    color: #fff;
+    font-weight: 500;
+    border-bottom: 1px solid #A41E22;
+}
+
+/* -- Discussions */
+
+.discussion_entry {
+    background: #3e3e3e;
+}
+
+.discussion-reply-box {
+color: black;
+}
+.discussion-rating {
+color: white;
+}
+.entry>.bottom-reply-with-box .discussion-entry-reply-area.reply-box-container {
+    background: #3e3e3e;
+}
+.discussion-reply-action:hover, .discussion-reply-action:focus, .discussion-rate-action:hover, .discussion-rate-action:focus {
+ color: #7b7b7b;
+
+}
+
+.discussion-reply-action, .discussion-rate-action {
+color: white;
+}
+.entry-controls {
+    background: #3e3e3e;
+}
+
+.message_wrapper {
+    background: #3e3e3e;
+}
+
+.entry-header {
+    background: #3e3e3e;
+}
+
+.message *:last-child {
+    background: #3e3e3e;
+}
+
+.discussion-list .title-help {
+    color: white;
+}
+
+.discussion-collections {
+    box-sizing: border-box;
+    border: 1px solid #d6d6d6;
+    background: #b3b3b3;
+}
+
+.discussion.no-content {
+    background: #969494;
+	color: white;
+}
+
+.discussion.no-content:hover {
+	background: #717171;
+	color: white;
+}
+
+.discussion .discussion-row>div {
+    color: white;
+}
+
+.discussion {
+    position: relative;
+    display: block;
+    height: auto;
+    background: #3d3d3d;
+    border: 1px solid #d6d6d6;
+    border-radius: 3px;
+    padding: 8px 0 8px 12px;
+    color: dimgray;
+}
+
+.discussion:hover {
+    background: #969494;
+}
+
+.discussion.no-content:hover {
+    background: #717171;
+    color: white;
+}
+
+.discussion.no-content b {  
+    color: white;
+}
+
+.discussion-collections {
+    box-sizing: border-box;
+    border: 1px solid #d6d6d6;
+    background: #fafafa;
+}
+
+/* -- Discussions - Edit Discussions Settings */
+
+.radio, .checkbox {
+    color: white;
+}
+
+.ui-dialog .ui-dialog-content {
+    background: #3d3d3d;
+}
+
+
+.ui-dialog .ui-dialog-titlebar.ui-widget-header, .ui-dialog .ui-datepicker .ui-widget-header.ui-datepicker-header, .ui-datepicker .ui-dialog .ui-widget-header.ui-datepicker-header {
+    background: #aaa;
+    padding: 16px 12px;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.ui-dialog .ui-dialog-title {
+    color: white;
+}
+
+.rubric_container thead th {
+    background-color: #ecebeb;
+}
+
+
+.discussion-pubdate {   
+    color: #ADADAD;
+	background: inherit;
+}
+
+
+/* -- Discussions - Discussions Forums */
+
+div.form-column-right label:hover, div.overrides-column-right label:hover {
+    background: #7d7d7d;
+}
+
+.discussion-assignment-section .discussion-title {   
+    color: white;
+}
+
+.discussion-points {
+    color: #a2a2a2;
+}
+
+/* -- Quizzes */
+
+/* -- Quizzes - Quiz Results for Test Student */
+
+.quiz_score .score_value {
+    color: white;
+}
+
+#right_side #rightside_inner {
+    background: #3e3e3e;
+}
+
+#add_a_comment {
+    background: #3e3e3e;
+}
+
+#add_a_comment .attach_things {
+    color: white;
+}
+
+#right_side .content_box {
+    background: #3e3e3e;
+    color: white;
+}
+
+
+/* -- Quizzes - Evaluating a Quiz */
+
+#questions.assessing {
+    background: #3e3e3e;
+}
+
+.question .text {
+    background-color: #3e3e3e;
+}
+
+/* -- Quizzes - Add New Quizzes - Details */
+
+#quiz_edit_wrapper {
+    background-color: #3e3e3e;
+}
+
+/* -- Quizzes - Add New Quizzes - Questions */
+
+.quiz-submission, .question_editing {
+    background: inherit;
+    border: 1px solid #fff;
+    padding: 16px;
+}
+
+.question {
+    background-color: inherit;
+ }
+
+#quiz_edit_wrapper #quiz_tabs #questions_tab {
+    background: inherit;
+}
+
+/* -- Grades */
+
+.student-name {
+    color: white;
+}
+
+.gradebook-cell {
+    color: black;
+}
+
+.even .slick-cell {
+    background-color: #e0dfdf;
+}
+
+.odd .slick-cell {
+    background-color: #b5b5b5;
+}
+
+
+#gradebook_grid .slick-cell.meta-cell {
+    color: white;
+    background-color: dimgrey;
+}
+
+.gradebook-header+.assignment-gradebook-container #gradebook-toolbar {
+    background: #8a8a8a;
+}
+
+.submission_details_add_comment_form {
+background-color: #c1c1c1;
+}
+
+.ui-kyle-menu a {
+    color: white;
+}
+
+/* -- Grades - Gradebook */
+
+.submission_details_add_comment_form label {
+    color: black;
+}
+
+.submission_details_add_comment_form #add_a_comment {
+    background: white;
+    color: black;
+}
+
+
+/* -- Grades - Test Student*/
+
+#grades_summary tr.group_total td, #grades_summary tr.group_total th[scope=row] {
+    color: white;
+}
+
+/* -- Conferences */
+
+.ig-header-title a {
+    color: #fff;
+}
+
+.item-box a:hover {
+    color: #a09c9c;
+    text-decoration: none;
+}
+
+.ic-Table.ic-Table--striped tbody tr:nth-child(odd) {
+    background-color: #444343;
+}
+
+.accessible-toggler:hover, .accessible-toggler:focus {
+    color: #b7b2b2;
+    text-decoration: none;
+}
+
+/* -- Files */
+
+.ef-footer {
+    border-top: 1px solid #A41E22;
+}
+
+.ef-directory-header {
+    border-bottom: 1px solid #A41E22;
+}
+
+.ef-header {
+    padding: 24px 0 12px;
+    border-bottom: 1px solid #A41E22;
+}
+
+.ef-plain-link, .ef-plain-link:hover {
+    color: #fff;
+}
+
+/* -- Outcomes */
+
+.outcomes-browser .outcomes-content {
+    height: 625px;
+    border-left: 1px solid #d6d6d6;
+    overflow-x: auto;
+    overflow-y: auto;
+    position: relative;
+    border: none;
+    border-radius: 0px 0px 5px 0px;
+    background-color: #3e3e3e;
+}
+
+ul.outcome-level {
+    padding: 0;
+    margin: 0;
+    border-right: 1px solid #ddd;
+    float: left;
+    height: 625px;
+    width: 200px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    box-sizing: border-box;
+    background: #3e3e3e;
+}
+
+.outcomes-browser .outcomes-content .wrapper {
+    padding: 15px;
+    padding-top: 10px;
+    width: 600px;
+    min-height: 300px;
+    background: #3e3e3e;
+}
+
+/* -- Outcomes - New Outcome */
+
+table.criterion td.total {
+    background-color: inherit;
+}
+
+/* -- Chat */
+
+a.secondary {
+    color: white;
+}
+
+#app_body{
+    background: #3d3d3d;
+}
+
+.paginated-messages, .paginated-history {
+    background-color: #3d3d3d;
+}
+
+.sidebar {
+    background-color: #3e3e3e;
+}
+
+.widget {
+    color: white;
+}
+
+/* -- Collaborations */
+/* -- Assigments */
+
+.accessible-toggler {
+    outline-width: 1px;
+    outline-color: transparent;
+    outline-style: solid;
+    color: white;
+}
+
+.accessible-toggler:hover, .accessible-toggler:focus {
+    color: #797676;
+}
+
+.item-group {
+    background-color: #3d3d3d;
+}
+
+
+/* -- Settings */
+
+.ui-tabs .ui-tabs-panel {   
+    background-color: #3e3e3e;
+	background: #3e3e3e;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+     background: #fff;
+}
+
+.ui-widget-content {
+    background: #3d3d3d;
+	color: inherit;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a {
+    color: #fff;
+	background: #3e3e3e;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: #b3b3b3;  
+}
+
+/* -- Settings - tab de settings */
+
+.nav_list li.navitem {
+    color: #888686;
+}
+
+.feature-title {
+    font-weight: bold;
+    margin-right: 8px;
+    color: white;
+}
+
+.feature-flag .element_toggler, .feature-flag .element_toggler:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active,.ui-tabs .ui-tabs-nav li.ui-tabs-active.ui-state-hover,.ui-tabs .ui-tabs-nav li.ui-tabs-active:hover {
+  border-color: #d6d6d6;
+  background: #3e3e3e;
+  color: #fff
+}
+
+#account_settings_tabs legend {
+    font-size: 15px;
+    font-size: 0.9375rem;
+    font-weight: bold;
+    color: #fff;
+}
+/* Courses Settings -- Course Details */
+
+#sections .section:hover {
+    background-color: #d4d1d1;
+}
+
+.ui-datepicker .ui-datepicker-time {
+    background-color: inherit;
+}
+
+#right-side table.summary td, #right-side table.summary tbody th {
+    background-color: #d4d4d4;
+    color: black;
+}
+
+/* Courses Settings -- Course Details - Content Licensing Help */
+
+#license_help_dialog #licence-help-options .option {
+    background: white;
+	color: black;
+}
+
+/* Courses Settings -- Alerts */
+
+.alert .form-actions {
+    background-color: inherit;
+}
+
+.alert .alert-label {
+    color: white;
+}
+
+.alert {
+    background-color: #3d3d3d;
+    color: white;
+}
+
+/* Courses - END */
+
+
+/* Calendar */
+
+#context-list .context_list_context:hover {
+    background: #717070;
+}
+
+#calendar-app .fc-month-view .fc-widget-header, #calendar-drag-and-drop-container .fc-month-view .fc-widget-header {
+    color: white;
+}
+
+.datetime_suggest {
+    color: white;
+}
+
+#edit_event .ui-tabs .ui-tabs-nav li.ui-tabs-active a, #edit_event .ui-tabs .ui-tabs-nav li.ui-tabs-active.ui-state-hover a, #edit_event .ui-tabs .ui-tabs-nav li.ui-tabs-active:hover a {
+    color: white;
+}
+          
+
+#edit_event .ui-tabs .ui-tabs-nav li a {
+    color: #fff;
+}
+
+#calendar-app .fc-agendaWeek-view .fc-widget-header, #calendar-drag-and-drop-container .fc-agendaWeek-view .fc-widget-header {
+    border-right: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.fc-view-container *, .fc-view-container *:before, .fc-view-container *:after {
+ 
+    color: black;
+}
+
+.scheduler-content {
+    background-color: #3E3E3E; 
+}
+
+.mini_calendar .day {  
+    color: #fff;   
+}
+
+.mini_calendar .day.today {
+    background-color: #777;
+}
+
+.dashboard-toggle-button-icon {
+    color: #fff;
+}
+
+#context-list-holder, #undated-events {
+    background-color: #3e3e3e;
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #d6d6d6;
+    padding: 6px;
+}
+
+#right-side h2, #right-side .h2 {
+    border-bottom: 1px solid #A41E22;
+	color: #ADADAD;
+}
+
+#right-side .events_list .event-list-view-calendar {
+	color: #ADADAD;
+}
+
+.btn-link {
+    border-color: transparent;
+    cursor: pointer;
+    color: #333;
+}
+
+/* Calendar -- Assigments */
+
+.event-details-header {
+    background: #3e3e3e;
+}
+
+.event-details .event-details-content {
+    background: #3e3e3e;
+}
+
+.event-details-timestring {
+    color: #fff;
+}
+
+.event-details-content table th[scope=row] {
+    background: #3e3e3e;
+}
+
+.event-details td, .event-details th {
+    background: #3e3e3e;
+}
+
+
+
+/* Calendar -- Scheduler -- Edit Appointment Group */
+
+.ui-datepicker table {
+    background: white;
+}
+
+.ag-contexts {
+    background: #3d3d3d;
+}
+
+p label {
+    font-size: inherit;
+    color: white;
+}
+
+/* Calendar -- Edit Event */
+
+.ui-state-default, .ui-widget-header .ui-state-default {
+    border: 1px solid #3d3d3d;
+}
+
+
+/* Inbox */
+
+.message-list .messages>li {
+	background: #3f3f3f;
+}
+.message-list .messages>li.active {
+    background: #3f3f3f;
+}
+.message-list .messages>li:hover {
+    background: #3f3f3f;
+}
+
+/* Inbox -- Compose a new message */
+
+.ac-token {
+    color: #3d3d3d;
+}
+
+.ac-result-list .result-name {
+    color: #3d3d3d;
+}
+
+/* Commons */
+/* Library */
+/* Services */
+/* Help */
+
+/* Accordion */
+
+/*.pad-box-mini {
+    background: white;
+}*/
+
+
+/* Theme editor */
+
+.Theme__editor-upload-warning p {
+    margin: 0;
+    color: #333;
+}
+
+.Theme__editor-upload-warning .Theme__editor-upload-warning_text-emphasis {
+    padding-bottom: 12px;
+    color: #333;
+}
+
+/* Canvas -- Wizard */
+
+.ic-wizard-box__message-inner {
+    background: rgba(255,255,255,0.5);
+}
+
+/* Settings -- Flash Message */
+#flash_message_holder, #flash_message_buffer {
+    background: #3e3e3e;
+}
+
+#flash_message_holder li.ic-flash-info:first-child, #flash_message_holder li.ic-flash-success:first-child, #flash_message_holder li.ic-flash-warning:first-child, #flash_message_holder li.ic-flash-error:first-child, #flash_message_buffer li.ic-flash-info:first-child, #flash_message_buffer li.ic-flash-success:first-child, #flash_message_buffer li.ic-flash-warning:first-child, #flash_message_buffer li.ic-flash-error:first-child {
+	background: #3e3e3e;
+}
+
+
+/* Seccion que se encarga de controlar los elementos de los Cursos en diferentes tamaÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡ ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¾ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡ ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡ ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡ ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¾ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â±os de pantalla */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+	.btn_menu1 {padding-bottom: 25px; padding-right: 25px;}
+	.btn_menu2 {padding-bottom: 25px; padding-right: 25px;}
+	.btn_menu3 {padding-bottom: 25px; padding-right: 25px;}
+	.btn_week {padding-bottom: 35px; padding-right: 50px;}
+}
+ 
+ /* Smartphones (landscape) transicion inicial ----------- */
+@media only screen
+and (min-width : 321px) 
+and (max-width : 879px){
+	.btn_menu1 {width: 120px; padding-bottom: 25px; padding-right: 25px;}
+	.btn_menu2 {width: 120px; padding-bottom: 25px; padding-right: 25px;}
+	.btn_menu3 {width: 140px; padding-bottom: 25px; padding-right: 170px;}
+	.btn_week {width: 180px; padding-bottom: 15px; padding-right: 5px;}
+}
+ 
+ /* Smartphones (landscape) transicion 1 ----------- */
+@media only screen
+and (min-width : 880px) 
+and (max-width : 965px){
+	.btn_menu1 {width: 19%; padding-bottom: 25px; padding-right: 5px;}
+	.btn_menu2 {width: 19%; padding-bottom: 25px; padding-right: 5px;}
+	.btn_menu3 {width: 120px; padding-bottom: 25px; padding-right: 5px;}
+	.btn_week {width: 180px; padding-bottom: 15px; padding-right: 15px;}
+}
+
+/* Smartphones (landscape) transicion 2 ----------- */
+@media only screen
+and (min-width : 966px) 
+and (max-width : 969px){
+	.btn_menu1 {width: 19%; padding-bottom: 25px; padding-right: 5px;}
+	.btn_menu2 {width: 19%; padding-bottom: 25px; padding-right: 5px;}
+	.btn_menu3 {width: 120px; padding-bottom: 25px; padding-right: 5px;}
+	.btn_week {width: 180px; padding-bottom: 15px; padding-right: 5px;}
+}
+ 
+ /* Smartphones (landscape) transicion 3 ----------- */
+@media only screen
+and (min-width : 970px) 
+and (max-width : 1001px){
+	.btn_menu1 {width: 19%; padding-bottom: 25px; padding-right: 5px;}
+	.btn_menu2 {width: 19%; padding-bottom: 25px; padding-right: 5px;}
+	.btn_menu3 {width: 120px; padding-bottom: 25px; padding-right: 5px;}
+	.btn_week {width: 180px; padding-bottom: 15px; padding-right: 5px;}
+}
+
+/* Smartphones (landscape) transicion 4 ----------- */
+@media only screen
+and (min-width : 1002px) 
+and (max-width : 1005px){
+	.btn_menu1 {width: 19%; padding-bottom: 25px; padding-right: 5px;}
+	.btn_menu2 {width: 19%; padding-bottom: 25px; padding-right: 5px;}
+	.btn_menu3 {width: 120px; padding-bottom: 25px; padding-right: 5px;}
+	.btn_week {width: 180px; padding-bottom: 10px; padding-right: 10px;}
+}
+ 
+/* Smartphones (landscape) transicion 5 ----------- */
+@media only screen
+and (min-width : 1006px) 
+and (max-width : 1020px){
+	.btn_menu1 {width: 19%; padding-bottom: 25px; padding-right: 5px;}
+	.btn_menu2 {width: 19%; padding-bottom: 25px; padding-right: 5px;}
+	.btn_menu3 {width: 120px; padding-bottom: 25px; padding-right: 5px;}
+	.btn_week {width: 180px; padding-bottom: 15px; padding-right: 15px;}
+}
+ 
+ /* Smartphones (landscape) transicion 6 ----------- */
+@media only screen
+and (min-width : 1020px) 
+and (max-width : 1080px){
+	.btn_menu1 {width: 19%; padding-bottom: 25px; padding-right: 5px;}
+	.btn_menu2 {width: 19%; padding-bottom: 25px; padding-right: 5px;}
+	.btn_menu3 {width: 120px; padding-bottom: 25px; padding-right: 5px;}
+	.btn_week {padding-bottom: 35px; padding-right: 30px;}
+}
+ 
+ /* Smartphones (landscape) transicion 7 ----------- */
+@media only screen
+and (min-width : 1081px) 
+and (max-width : 1088px){
+	.btn_menu1 {width: 120px; padding-bottom: 15px; padding-right: 5px;}
+	.btn_menu2 {width: 120px; padding-bottom: 15px; padding-right: 5px;}
+	.btn_menu3 {width: 120px; padding-bottom: 15px; padding-right: 5px;}
+	.btn_week {width: 190px; padding-bottom: 20px; padding-right: 5px;}
+}
+  
+  /* Smartphones (landscape) transicion 8 ----------- */
+@media only screen
+and (min-width : 1089px) 
+and (max-width : 1223px){
+	.btn_menu1 {width: 19%; padding-bottom: 25px; padding-right: 5px;}
+	.btn_menu2 {width: 19%; padding-bottom: 25px; padding-right: 5px;}
+	.btn_menu3 {width: 120px; padding-bottom: 25px; padding-right: 5px;}
+	.btn_week {width: 160px; padding-bottom: 20px; padding-right: 25px;}
+}
+   
+ /* Smartphones (landscape) transicion final ----------- */
+@media only screen
+and (min-width : 1224px) 
+and (max-width : 1232px){
+	.btn_menu1 {width: 23%; padding-bottom: 25px; padding-right: 5px;}
+	.btn_menu2 {width: 23%; padding-bottom: 25px; padding-right: 5px;}
+	.btn_menu3 {width: 120px; padding-bottom: 25px; padding-right: 5px;}
+	.btn_week {width: 200px; padding-bottom: 20px; padding-right: 5px;}
+}
+ 
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+	.btn_menu1 {width:29%; padding-bottom: 25px; padding-right: 25px;}
+	.btn_menu2 {width:29%; padding-bottom: 25px; padding-right: 25px;}
+	.btn_menu3 {width: 300px; padding-bottom: 25px; padding-right: 25px;}
+	.btn_week {padding-bottom: 35px; padding-right: 35px;}
+}
+ 
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+	.btn_menu1 {width: 90px; padding-bottom: 25px; padding-right: 25px;}
+	.btn_menu2 {width: 90px; padding-bottom: 25px; padding-right: 25px;}
+	.btn_menu3 {width: 120px; padding-bottom: 25px; padding-right: 45px;}
+	.btn_week {padding-bottom: 35px; padding-right: 36px;}
+}
+ 
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+	.btn_menu1 {width: 90px; padding-bottom: 25px; padding-right: 25px;}
+	.btn_menu2 {width: 90px; padding-bottom: 25px; padding-right: 25px;}
+	.btn_menu3 {width: 120px; padding-bottom: 25px; padding-right: 5px;}
+	.btn_week {padding-bottom: 35px; padding-right: 5px;}
+}
+ 
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+	.btn_menu1 {padding-bottom: 25px; padding-right: 5px;}
+	.btn_menu2 {padding-bottom: 25px; padding-right: 5px;}
+	.btn_menu3 {width: 100px; padding-bottom: 25px; padding-right: 5px;}
+	.btn_week {padding-bottom: 35px; padding-right: 20px;}
+}
+ 
+ 
+ /* Desktops and laptops transicion inicial ----------- */
+@media only screen
+and (min-width : 1224px)
+and (max-width : 1397px) {
+	.btn_menu1 {width: 120px; padding-bottom: 5px; padding-right: 5px;}
+	.btn_menu2 {width: 120px; padding-bottom: 5px; padding-right: 5px;}
+	.btn_menu3 {width: 140px; padding-bottom: 5px; padding-right: 5px;}
+	.btn_week {width: 212px; padding-bottom: 35px; padding-right: 15px;}
+}
+
+
+/* Desktops and laptops transicion final ----------- */
+@media only screen
+and (min-width : 1398px)
+and (max-width : 1401px) {
+	.btn_menu1 {width: 160px; padding-bottom: 5px; padding-right: 5px;}
+	.btn_menu2 {width: 160px; padding-bottom: 5px; padding-right: 5px;}
+	.btn_menu3 {width: 140px; padding-bottom: 5px; padding-right: 5px;}
+	.btn_week {width: 212px; padding-bottom: 30px; padding-right: 30px;}
+}
+ 
+ 
+/* Desktops and laptops transicion inicial ----------- */
+@media only screen
+and (min-width : 1402px)
+and (max-width : 1454px) {
+	.btn_menu1 {width: 160px; padding-bottom: 5px; padding-right: 5px;}
+	.btn_menu2 {width: 160px; padding-bottom: 5px; padding-right: 5px;}
+	.btn_menu3 {width: 140px; padding-bottom: 5px; padding-right: 5px;}
+	.btn_week {width: 212px; padding-bottom: 35px; padding-right: 15px;}
+}
+ 
+ /* Desktops and laptops transicion 1 ----------- */
+@media only screen
+and (min-width : 1454px)
+and (max-width : 1457px) {
+	.btn_menu1 {width: 160px; padding-bottom: 5px; padding-right: 5px;}
+	.btn_menu2 {width: 160px; padding-bottom: 5px; padding-right: 5px;}
+	.btn_menu3 {width: 140px; padding-bottom: 5px; padding-right: 5px;}
+	.btn_week { width: 212px; padding-bottom: 35px; padding-right: 5px;}
+}
+
+/* Desktops and laptops transicion final ----------- */
+@media only screen
+and (min-width : 1458px) {
+	.btn_menu1 {width: 160px; padding-bottom: 5px; padding-right: 5px;}
+	.btn_menu2 {width: 160px; padding-bottom: 5px; padding-right: 5px;}
+	.btn_menu3 {width: 180px; padding-bottom: 5px; padding-right: 5px;}
+	.btn_week {width: 212px; padding-bottom: 35px; padding-right: 25px;}
+}
+ 
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+	.btn_menu1 {width: 180px; padding-bottom: 5px; padding-right: 5px;}
+	.btn_menu2 {width: 180px; padding-bottom: 5px; padding-right: 5px;}
+	.btn_menu3 {width: 160px; padding-bottom: 5px; padding-right: 5px;}
+	.btn_week {width: 212px; padding-bottom: 35px; padding-right: 25px;}
+}
+ 
+/* iPhone 5 (portrait &amp; landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+	.btn_menu1 {padding-bottom: 25px; padding-right: 25px;}
+	.btn_menu2 {padding-bottom: 25px; padding-right: 25px;}
+	.btn_menu3 {padding-bottom: 25px; padding-right: 25px;}
+	.btn_week {padding-bottom: 35px; padding-right: 35px;}
+}
+ 
+/* iPhone 5 (landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+	.btn_menu1 {padding-bottom: 25px; padding-right: 25px;}
+	.btn_menu2 {padding-bottom: 25px; padding-right: 25px;}
+	.btn_menu3 {padding-bottom: 25px; padding-right: 25px;}
+	.btn_week {padding-bottom: 35px; padding-right: 35px;}
+}
+ 
+/* iPhone 5 (portrait)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+	.btn_menu1 {padding-bottom: 25px; padding-right: 25px;}
+	.btn_menu2 {padding-bottom: 25px; padding-right: 25px;}
+	.btn_menu3 {width: 100px; padding-bottom: 25px; padding-right: 25px;}
+	.btn_week {padding-bottom: 35px; padding-right: 35px;}
+}
+
+/*Cursos END*/
+
+/* Hide "Ask Your Instructor a Question" */
+#help-dialog-options a[href="#teacher_feedback"] {
+  display:none !important;
+}
+
+/* Hide "Report a Problem" */
+#help-dialog-options a[href="#create_ticket"] {
+  display:none !important;
+}
+
+/* Hide "Ask the Community" */
+#help-dialog-options a[href="https://community.canvaslms.com/community/answers"] {
+  display:none !important;
+}
+/* Hide "Submit a Feature Idea" */
+#help-dialog-options a[href="https://community.canvaslms.com/community/ideas/feature-ideas"] {
+  display:none !important;
+}
+
+/* Hide the option to minimize the left menu */
+.ic-app-header__menu-list-link.ic-app-header__menu-list-link--nav-toggle {
+    height: 2.5rem;
+    -webkit-perspective: 600px;
+    perspective: 600px;
+    visibility: hidden;
+} 
